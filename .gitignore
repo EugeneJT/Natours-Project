@@ -1,0 +1,52 @@
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# OS or Editor folders
+._*
+.cache
+.DS_Store
+.project
+.settings
+.tmproj
+Thumbs.db
+
+# VisualStudioCode 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# VisualStudioCode Patch 
+# Ignore all local history of files
+.history
+
+# Folders to ignore
+.CVS
+.git
+.hg
+.idea
+.svn
+bower_components
+dist
+# build
+
+# Node.JS
+node_modules
+npm-debug.log
